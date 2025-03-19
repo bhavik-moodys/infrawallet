@@ -1,12 +1,12 @@
 {
-  "name": "@electrolux-oss/plugin-infrawallet",
+  "name": "@bhavik-moodys/plugin-infrawallet",
   "version": "0.3.1",
   "backstage": {
     "role": "frontend-plugin",
     "pluginId": "infrawallet",
     "pluginPackages": [
-      "@electrolux-oss/plugin-infrawallet",
-      "@electrolux-oss/plugin-infrawallet-backend"
+      "@bhavik-moodys/plugin-infrawallet",
+      "@bhavik-moodys/plugin-infrawallet-backend"
     ]
   },
   "publishConfig": {

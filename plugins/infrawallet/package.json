@@ -1,6 +1,6 @@
 {
   "name": "@bhavik-moodys/plugin-infrawallet",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "backstage": {
     "role": "frontend-plugin",
     "pluginId": "infrawallet",

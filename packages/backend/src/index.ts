@@ -23,6 +23,6 @@ backend.add(import('@backstage/plugin-permission-backend/alpha'));
 backend.add(import('@backstage/plugin-permission-backend-module-allow-all-policy'));
 
 // InfraWallet plugin
-backend.add(import('@electrolux-oss/plugin-infrawallet-backend'));
+backend.add(import('@bhavik-moodys/plugin-infrawallet-backend'));
 
 backend.start();

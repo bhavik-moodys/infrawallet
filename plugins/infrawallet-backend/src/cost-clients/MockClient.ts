@@ -31,7 +31,7 @@ export class MockClient extends InfraWalletClient {
       const startDate = moment.unix(Number(query.startTime) / 1000);
       let endDate = moment.unix(Number(query.endTime) / 1000);
 
-      const mockDir = resolvePackagePath('@electrolux-oss/plugin-infrawallet-backend', 'mock');
+      const mockDir = resolvePackagePath('@bhavik-moodys/plugin-infrawallet-backend', 'mock');
       const mockFilePath = upath.join(mockDir, 'mock_response.json');
       const data = await fsPromises.readFile(mockFilePath, 'utf8');
       const jsonData: Report[] = JSON.parse(data);

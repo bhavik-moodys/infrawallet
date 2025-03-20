@@ -23,7 +23,7 @@
     "@backstage/integration-react": "^1.2.4",
     "@backstage/plugin-permission-react": "^0.4.31",
     "@backstage/theme": "^0.6.4",
-    "@electrolux-oss/plugin-infrawallet": "workspace:^",
+    "@bhavik-moodys/plugin-infrawallet": "workspace:^",
     "@material-ui/core": "^4.12.2",
     "history": "^5.0.0",
     "react": "^18.0.2",

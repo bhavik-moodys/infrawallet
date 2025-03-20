@@ -28,7 +28,7 @@ import { CloudProviderError, Metric, MetricSetting, Report, RouterOptions, Tag }
 async function setUpDatabase(database: DatabaseService) {
   // check database migrations
   const client = await database.getClient();
-  const migrationsDir = resolvePackagePath('@electrolux-oss/plugin-infrawallet-backend', 'migrations');
+  const migrationsDir = resolvePackagePath('@bhavik-moodys/plugin-infrawallet-backend', 'migrations');
   if (!database.migrations?.skip) {
     await client.migrate.latest({
       directory: migrationsDir,
@@ -36,7 +36,7 @@ async function setUpDatabase(database: DatabaseService) {
   }
 
   // insert default category_mappings to the database
-  const seedsDir = resolvePackagePath('@electrolux-oss/plugin-infrawallet-backend', 'seeds');
+  const seedsDir = resolvePackagePath('@bhavik-moodys/plugin-infrawallet-backend', 'seeds');
   await client.seed.run({ directory: seedsDir });
 }
 

@@ -7,7 +7,7 @@ import {
   sidebarConfig,
   useSidebarOpenState,
 } from '@backstage/core-components';
-import { InfraWalletIcon } from '@electrolux-oss/plugin-infrawallet';
+import { InfraWalletIcon } from '@bhavik-moodys/plugin-infrawallet';
 import { makeStyles } from '@material-ui/core';
 import React, { PropsWithChildren } from 'react';
 import LogoFull from './LogoFull';
